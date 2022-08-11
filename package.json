@@ -1,0 +1,18 @@
+{
+  "name": "ahpc",
+  "version": "1.0.0",
+  "description": "自动打卡程序",
+  "main": "main.js",
+  "scripts": {
+    "start": "npx pkg -t win main.js"
+  },
+  "keywords": [],
+  "author": "徐行",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^16.1.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.8.0"
+  }
+}
